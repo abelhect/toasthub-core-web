@@ -46,11 +46,6 @@ function toastHubMemberLayout(instanceName,parent){
 		// add footer
 		this.footerRenderer(params);
 		
-		// this is needed for testing login 
-		var test = document.createElement("DIV");
-		test.id = "MemberArea";
-		toastHub.body.appendChild(test);
-		
 		this.addAction();
 	}; // initPage
 	

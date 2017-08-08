@@ -121,7 +121,7 @@ function toastHubUserManager(instanceName,parent){
 		col1.innerHTML = "<a href='#' class='active' id='login-form-link'>".concat(self.pageTexts.LOGIN_FORM.LOGIN_FORM_HEADER.value).concat("</a>");
 		rowHeading.appendChild(col1);
 		
-		if (self.pageOptions != null && self.pageOptions.REGISTRATION_FORM != null && self.pageOptions.REGISTRATION_FORM.REGISTRATION_SHOW_FORM.rendered == "true") {
+		if (self.pageOptions != null && self.pageOptions.REGISTRATION_FORM != null && self.pageOptions.REGISTRATION_FORM.REGISTRATION_SHOW_FORM.value == "true") {
 			var col2 = document.createElement("DIV");
 			col2.className = "col-xs-6";
 			col2.innerHTML = "<a href='#' class='active' id='register-form-link'>Register</a>";
@@ -218,7 +218,7 @@ function toastHubUserManager(instanceName,parent){
 		this.addLoginActions();
 		
 		// register 
-		if (self.pageOptions != null && self.pageOptions.REGISTRATION_FORM != null && self.pageOptions.REGISTRATION_FORM.REGISTRATION_SHOW_FORM.rendered == "true") {
+		if (self.pageOptions != null && self.pageOptions.REGISTRATION_FORM != null && self.pageOptions.REGISTRATION_FORM.REGISTRATION_SHOW_FORM.value == "true") {
 			
 			var registerForm = document.createElement("DIV");
 			registerForm.id = "register-form";
