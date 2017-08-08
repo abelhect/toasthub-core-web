@@ -1,0 +1,374 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top:72px;
+	background-color:#f5f6f7;
+	font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.471;
+}
+#mainNav {
+	box-shadow: 0 1px 6px 1px rgba(80,80,80,.3);
+	background-color: white;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    text-transform: uppercase;
+    text-transform: none;
+}
+
+
+
+.x_panel {
+	position: relative;
+  	background-color: #fff;
+  	width: 98%;
+  	display: inline-block;
+  	background: #fff;
+  	border-top: 1px solid #f1f3f4;
+ 	-webkit-column-break-inside: avoid;
+ 	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	opacity: 1;
+	transition: all .2s ease; 
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,.15);
+    padding: 15px;
+    margin: 15px;
+  }
+
+.x_title {
+    border-bottom: 2px solid #E6E9ED;
+    padding: 1px 5px 6px;
+    margin-bottom: 10px;
+}
+.x_content {
+    padding: 0 5px 6px;
+    position: relative;
+    width: 100%;
+ 	float: left;
+    clear: both;
+    margin-top: 5px;
+}
+
+.x_content h4 {
+  font-size: 16px;
+  font-weight: 500; }
+
+.demo-placeholder {
+    height: 280px;
+}
+
+.tiles {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.tile {
+    overflow: hidden;
+}
+
+.top_tiles {
+  margin-bottom: 0; }
+
+.top_tiles .tile h2 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 3px 0 7px;
+  font-weight: bold; }
+  
+@media (min-width: 1200px) {
+    .container{
+       width:100%;
+    }
+}
+
+.green {
+	color: #1ABB9C;
+}
+
+.navbar-toggle {
+	margin-right: 20px;
+	}
+	
+.user-profile img {
+	width: 29px;
+	height: 29px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.user-profile i {
+	margin-right: 10px;
+}
+
+
+  
+.daterangepicker .ranges li {
+  color: #73879C; }
+  .daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+    background: #536A7F;
+    border: 1px solid #536A7F;
+    color: #fff; }
+.daterangepicker .input-mini {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  box-shadow: none !important; }
+  .daterangepicker .input-mini.active {
+    border: 1px solid #ccc; }
+.daterangepicker select.monthselect, .daterangepicker select.yearselect, .daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.secondselect, .daterangepicker select.ampmselect {
+  font-size: 12px;
+  padding: 1px;
+  height: auto;
+  margin: 0;
+  cursor: default;
+  height: 30px;
+  border: 1px solid #ADB2B5;
+  line-height: 30px;
+  border-radius: 0px !important; }
+.daterangepicker select.monthselect {
+  margin-right: 2%; }
+.daterangepicker td.in-range {
+  background: #E4E7EA;
+  color: #73879C; }
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #536A7F;
+  color: #fff; }
+.daterangepicker th.available:hover {
+  background: #eee;
+  color: #34495E; }
+.daterangepicker:before, .daterangepicker:after {
+  content: none; }
+.daterangepicker .calendar.single {
+  margin: 0 0 4px 0; }
+  .daterangepicker .calendar.single .calendar-table {
+    width: 224px;
+    padding: 0 0 4px 0 !important; }
+    .daterangepicker .calendar.single .calendar-table thead tr:first-child th {
+      padding: 8px 5px; }
+    .daterangepicker .calendar.single .calendar-table thead th {
+      border-radius: 0; }
+.daterangepicker.picker_1 {
+  color: #fff;
+  background: #34495E; }
+  .daterangepicker.picker_1 .calendar-table {
+    background: #34495E; }
+    .daterangepicker.picker_1 .calendar-table thead tr {
+      background: #213345; }
+    .daterangepicker.picker_1 .calendar-table thead tr:first-child {
+      background: #1ABB9C; }
+    .daterangepicker.picker_1 .calendar-table td.off {
+      background: #34495E;
+      color: #999; }
+    .daterangepicker.picker_1 .calendar-table td.available:hover {
+      color: #34495E; }
+.daterangepicker.picker_2 .calendar-table thead tr {
+  color: #1ABB9C; }
+.daterangepicker.picker_2 .calendar-table thead tr:first-child {
+  color: #73879C; }
+.daterangepicker.picker_3 .calendar-table thead tr:first-child {
+  color: #fff;
+  background: #1ABB9C; }
+.daterangepicker.picker_4 .calendar-table thead tr:first-child {
+  color: #fff;
+  background: #34495E; }
+.daterangepicker.picker_4 .calendar-table td, .daterangepicker.picker_4 .calendar-table td.off {
+  background: #ECF0F1;
+  border: 1px solid #fff;
+  border-radius: 0; }
+.daterangepicker.picker_4 .calendar-table td.active {
+  background: #34495E; }
+
+.calendar-exibit .show-calendar {
+  float: none;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  overflow: hidden; }
+  .calendar-exibit .show-calendar .calendar {
+    margin: 0 0 4px 0; }
+  .calendar-exibit .show-calendar.picker_1 {
+    background: #34495E; }
+.calendar-exibit .calendar-table {
+  padding: 0 0 4px 0; }
+
+
+@media (max-width: 1200px) {
+  .x_title h2 {
+    width: 62%;
+    font-size: 17px; }
+
+  .tile, .graph {
+    zoom: 85%;
+    height: inherit; } }
+@media (max-width: 1270px) and (min-width: 192px) {
+  .x_title h2 small {
+    display: none; } }
+    
+.x_title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+  margin-bottom: 10px; }
+
+.x_title .filter {
+  width: 40%;
+  float: right; }
+
+.x_title h2 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.x_title h2 small {
+  margin-left: 10px; }
+
+.x_title span {
+  color: #BDBDBD; }
+
+/** top tiles  */
+
+.tile_count .tile_stats_count {
+  border-bottom: 1px solid #D9DEE4;
+  padding: 0 10px 0 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative; }
+
+@media (min-width: 992px) {
+  .tile_count .tile_stats_count {
+    border-bottom: 0; } }
+.tile_count .tile_stats_count:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 65px;
+  border-left: 2px solid #ADB2B5;
+  margin-top: 10px; }
+
+@media (min-width: 992px) {
+  .tile_count .tile_stats_count:first-child:before {
+    border-left: 0; } }
+.tile_count .tile_stats_count .count {
+  font-size: 30px;
+  line-height: 47px;
+  font-weight: 600; }
+
+@media (min-width: 768px) {
+  .tile_count .tile_stats_count .count {
+    font-size: 40px; } }
+@media (min-width: 992px) and (max-width: 1100px) {
+  .tile_count .tile_stats_count .count {
+    font-size: 30px; } }
+.tile_count .tile_stats_count span {
+  font-size: 12px; }
+
+@media (min-width: 768px) {
+  .tile_count .tile_stats_count span {
+    font-size: 13px; } }
+.tile_count .tile_stats_count .count_bottom i {
+  width: 12px; }
+  
+ h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  
+ .expand {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  cursor: pointer; }
+
+.expand h2 {
+  width: 85%;
+  float: left; }
+
+h2 {
+  font-size: 18px;
+  font-weight: 400; }
+  
+ /** /top tiles **/
+.dashboard_graph {
+  background: #fff;
+  padding: 7px 10px; }
+
+.dashboard_graph .col-md-9, .dashboard_graph .col-md-3 {
+  padding: 0; }
+
+a.user-profile {
+  color: #5E6974 !important; }
+
+.user-profile img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-right: 10px; }
+
+ul.top_profiles {
+  height: 330px;
+  width: 100%; }
+
+ul.top_profiles li {
+  margin: 0;
+  padding: 3px 5px; }
+
+ul.top_profiles li:nth-child(odd) {
+  background-color: #eee; }
+
+.media .profile_thumb {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  margin: 5px 10px 5px 0;
+  border-radius: 50%;
+  padding: 9px 12px; }
+
+.media .profile_thumb i {
+  font-size: 30px; }
+
+.media .date {
+  background: #ccc;
+  width: 52px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px; }
+
+.media .date .month {
+  margin: 0;
+  text-align: center;
+  color: #fff; }
+
+.media .date .day {
+  text-align: center;
+  color: #fff;
+  font-size: 27px;
+  margin: 0;
+  line-height: 27px;
+  font-weight: bold; }
+
+.event .media-body a.title {
+  font-weight: bold; }
+
+.event .media-body p {
+  margin-bottom: 0; }
+
+h4.graph_title {
+  margin: 7px;
+  text-align: center; }
+ 
+ 
