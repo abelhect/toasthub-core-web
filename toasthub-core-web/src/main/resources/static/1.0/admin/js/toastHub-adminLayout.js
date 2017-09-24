@@ -131,7 +131,7 @@ function toastHubAdminLayout(instanceName,parent){
 		
 		var footerInfo = document.createElement("DIV");
 		footerInfo.className = "pull-right";
-		footerInfo.innerHTML = "Copyright &copy; CBorgtech 2017";
+		footerInfo.innerHTML = "Copyright &copy; ToastHUB 2017";
 		this.footerContainer.appendChild(footerInfo);
 		var clearFix = document.createElement("DIV");
 		clearFix.className = "clearfix";
